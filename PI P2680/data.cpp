@@ -28,7 +28,7 @@ int main()
 	int i;
 	int x,y;
 	int z;
-	n=random()%144444+2; m=random()%144444+1;
+	n=random()%50000+2; m=random()%50000+1;
 	printf("%d %d\n",n,m);
 	for(i=1;i<=n;i++) 
 		par[i]=i;
@@ -40,7 +40,7 @@ int main()
 			continue;
 		}
 		Join(x,y);
-		z=rand()%1000+1;
+		z=rand()%10000+1;
 		printf("%d %d %d\n",x,y,z);
 	}
 	for(i=1;i<=m;i++) {
